@@ -1,13 +1,4 @@
 # datawarehouse
-It is a datawarehouse project being built for the hospital data. It will follow the medallion architecture where the layers are bronze, silver and gold.
-
-This project works on the data files in the .csv format. The following are the datasets to work on:
-1.doctors.csv
-2.patients.csv
-3.billing.csv
-4.treatments.csv
-5.appointments.csv
-
 The flow of the data:
 
 Source -> Bronze Layer -> Silver Layer -> Gold Layer
